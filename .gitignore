@@ -1,0 +1,17 @@
+# Ignore Rust build directory
+/target
+
+# Ignore backup files
+**/*.rs.backup
+
+# Ignore Cargo lock file for libraries (optional for binaries)
+/Cargo.lock
+
+# Ignore IDE/editor-specific files
+**/*.swp
+**/*swo
+*.log
+.DS_Store
+.idea/
+.vscode/
+
